@@ -3,18 +3,18 @@ import Categories from './Categories';
 import Items from './Items';
 
 const topImages = [
-    "../../public/shirt.png",
-    "../../public/hoodie.png"
+    "shirt.png",
+    "hoodie.png"
 ];
 
 const bottomImages = [
-    "../../public/shorts.png",
-    "../../public/longPants.png"
+    "shorts.png",
+    "longPants.png"
 ];
 
 const shoesImages = [
-    "../../public/sneakers.png",
-    "../../public/boots.png"
+    "sneakers.png",
+    "boots.png"
 ];
 
 function Sidebar() {
