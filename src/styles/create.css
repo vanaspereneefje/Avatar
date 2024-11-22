@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+}
+
+.sidebar_div {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: row;
+}
+
+.clothing-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.clothes {
+    margin-left: 0px;
+    z-index: 2;
+}
+
+.avatar-image {
+    height: 600px;
+    width: 400px;
+    align-content: center;
+    justify-content: center;
+    background-image: url("../../public/avatar.png");
+    background-size: 400px 600px;
+    grid-column: 1;
+    /*grid-row: 1;*/
+    z-index: 1;
+}
+
+.dropbox {
+    position: relative;
+    /*display: grid;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    row-gap: 0px;*/
+}
+
+.droppable.dropbox-one {
+    height: 325px;
+    width: 325px;
+    align-content: center;
+    justify-content: center;
+    grid-column: 1;
+    /*grid-row: 1;*/
+    z-index: 2;
+    position: absolute;
+    top: 135px;
+    right: 37px;  
+}
+
+.droppable.dropbox-two {
+    height: 325px;
+    width: 325px;
+    align-content: center;
+    justify-content: center;
+    grid-column: 1;
+    /*grid-row: 2;*/
+    z-index: 2;
+    position: absolute;
+    top: 280px;
+    right: 37px; 
+}
+
+.droppable.dropbox-three {
+    height: 325px;
+    width: 325px;
+    align-content: center;
+    justify-content: center;
+    grid-column: 1;
+    /*grid-row: 3;*/
+    z-index: 2;
+    position: absolute;
+    top: 375px;
+    right: 37px; 
+}
+
